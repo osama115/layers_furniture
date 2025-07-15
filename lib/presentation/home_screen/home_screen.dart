@@ -206,7 +206,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Container(
                       padding: EdgeInsets.all(2.w),
                       decoration: BoxDecoration(
-                        color: AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
+                        color: AppTheme
+                            .lightTheme.colorScheme.surfaceContainerHighest,
                         borderRadius: BorderRadius.circular(8),
                       ),
                       child: CustomIconWidget(
@@ -346,7 +347,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 width: 20.w,
                 height: 15.h,
                 decoration: BoxDecoration(
-                  color: AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
+                  color:
+                      AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
                   borderRadius: BorderRadius.circular(8),
                 ),
               ),
@@ -359,7 +361,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 40.w,
                       height: 2.h,
                       decoration: BoxDecoration(
-                        color: AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
+                        color: AppTheme
+                            .lightTheme.colorScheme.surfaceContainerHighest,
                         borderRadius: BorderRadius.circular(4),
                       ),
                     ),
@@ -368,7 +371,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 60.w,
                       height: 1.5.h,
                       decoration: BoxDecoration(
-                        color: AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
+                        color: AppTheme
+                            .lightTheme.colorScheme.surfaceContainerHighest,
                         borderRadius: BorderRadius.circular(4),
                       ),
                     ),
@@ -377,7 +381,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       width: 30.w,
                       height: 2.h,
                       decoration: BoxDecoration(
-                        color: AppTheme.lightTheme.colorScheme.surfaceContainerHighest,
+                        color: AppTheme
+                            .lightTheme.colorScheme.surfaceContainerHighest,
                         borderRadius: BorderRadius.circular(4),
                       ),
                     ),

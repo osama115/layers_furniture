@@ -357,7 +357,8 @@ class AppTheme {
         borderRadius: BorderRadius.circular(8.0),
       ),
       elevation: 4,
-    ), dialogTheme: DialogThemeData(backgroundColor: surfaceLight),
+    ),
+    dialogTheme: DialogThemeData(backgroundColor: surfaceLight),
   );
 
   /// Dark theme optimized for furniture e-commerce
@@ -669,7 +670,8 @@ class AppTheme {
         borderRadius: BorderRadius.circular(8.0),
       ),
       elevation: 4,
-    ), dialogTheme: DialogThemeData(backgroundColor: surfaceDark),
+    ),
+    dialogTheme: DialogThemeData(backgroundColor: surfaceDark),
   );
 
   /// Helper method to build text theme using Inter font family
