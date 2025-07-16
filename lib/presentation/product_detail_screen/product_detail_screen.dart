@@ -8,10 +8,6 @@ import './widgets/product_color_selector_widget.dart';
 import './widgets/product_image_carousel_widget.dart';
 import './widgets/product_quantity_selector_widget.dart';
 import './widgets/product_rating_widget.dart';
-import 'widgets/product_color_selector_widget.dart';
-import 'widgets/product_image_carousel_widget.dart';
-import 'widgets/product_quantity_selector_widget.dart';
-import 'widgets/product_rating_widget.dart';
 
 class ProductDetailScreen extends StatefulWidget {
   const ProductDetailScreen({Key? key}) : super(key: key);
