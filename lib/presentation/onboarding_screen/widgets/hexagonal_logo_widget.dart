@@ -60,7 +60,7 @@ class HexagonPainter extends CustomPainter {
       final double angle = (i * 60) * (3.14159 / 180);
       final double x = centerX + radius * 0.8 * math.cos(angle);
       final double y = centerY + radius * 0.8 * math.sin(angle);
-      
+
       if (i == 0) {
         path.moveTo(x, y);
       } else {
@@ -79,5 +79,5 @@ class HexagonPainter extends CustomPainter {
 // Helper function for cos
 double cos(double angle) => math.cos(angle);
 
-// Helper function for sin  
+// Helper function for sin
 double sin(double angle) => math.sin(angle);
